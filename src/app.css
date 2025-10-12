@@ -6,18 +6,8 @@
 
 @source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
 
-#app {
-  display: contents;
-}
+@custom-variant dark (&:where(.dark, .dark *));
+
 .icon svg {
   display: inline-block;
-}
-html {
-  height: 100%;
-  overflow-y: scroll;
-}
-body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
 }

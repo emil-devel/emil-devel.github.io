@@ -5,12 +5,6 @@
   const inner = 'w-full max-w-4xl mx-auto  py-4 space-y-4'
 </script>
 
-<svelte:head>
-  <title>emil-devel | emil-devel.github.io</title>
-  <meta name="description" content="Portfolio Page" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-</svelte:head>
-
 <header class={outer}>
   <div class={inner}>
     <h1 class="text-3xl">emil-devel</h1>
