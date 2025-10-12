@@ -1,47 +1,30 @@
 <script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
+  import { Github } from '@lucide/svelte'
+
+  const outer = 'px-2 sm:py-4'
+  const inner = 'w-full max-w-4xl mx-auto  py-4 space-y-4'
 </script>
 
-<main>
-  <div>
-    <a href="https://vite.dev" target="_blank" rel="noreferrer">
-      <img src={viteLogo} class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
+<svelte:head>
+  <title>Svelte + TypeScript + TailwindCSS | emil-devel.github.io</title>
+  <meta name="description" content="A simple Svelte app with TypeScript and TailwindCSS" />
+</svelte:head>
+
+<header class={outer}>
+  <div class={inner}>
+    <h1 class="text-3xl">emil-devel</h1>
   </div>
-  <h1>Vite + Svelte</h1>
-
-  <div class="card">
-    <Counter />
-  </div>
-
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
-
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
+</header>
+<main class="{outer} flex-auto">
+  <article class={inner}>
+    <h2 class="text-2xl">Hello world!</h2>
+  </article>
 </main>
-
-<style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
-  }
-</style>
+<footer class={outer}>
+  <div class={inner}>
+    <p class="text-center">
+      <span class="icon"><Github size={16} /></span>
+      <small>{new Date().getFullYear()} | emil-devel.github.io</small>
+    </p>
+  </div>
+</footer>
