@@ -6,8 +6,9 @@
 </script>
 
 <svelte:head>
-  <title>Svelte + TypeScript + TailwindCSS | emil-devel.github.io</title>
-  <meta name="description" content="A simple Svelte app with TypeScript and TailwindCSS" />
+  <title>emil-devel | emil-devel.github.io</title>
+  <meta name="description" content="Portfolio Page" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 </svelte:head>
 
 <header class={outer}>
