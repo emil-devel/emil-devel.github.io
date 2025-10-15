@@ -1,6 +1,7 @@
 <script lang="ts">
   import { Copyright, Github } from '@lucide/svelte'
   import Header from './lib/Header.svelte'
+  import Skills from './lib/Skills.svelte'
 
   const outer = 'px-2 sm:py-4'
   const inner = 'w-full max-w-xl mx-auto  py-4 space-y-4'
@@ -10,6 +11,9 @@
 <main class="{outer} flex-auto">
   <article class={inner}>
     <h2 class="text-2xl text-right text-primary-300-700">Hello world!</h2>
+    <div>
+      <Skills />
+    </div>
   </article>
 </main>
 <footer class={outer}>
