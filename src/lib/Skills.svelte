@@ -1,10 +1,8 @@
 <script lang="ts">
   import CodeBlock from './CodeBlock.svelte'
   const skills = `
-  const {
-    code = '',
-    lang = 'console',
-    theme = 'dark-plus',
+  const skills: DeveloperProfile = () => {
+    role = 'Fullstack Web And App Developer',
     // Base Style Props
     base = 'overflow-hidden',
     rounded = 'rounded-container',
@@ -15,9 +13,6 @@
     prePadding = '[&>pre]:p-4',
     preClasses = '',
   }: CodeBlockProps = $props()
-
-  // Shiki convert to HTML
-  const generatedHtml = shiki.codeToHtml(code, { lang, theme })
   `
 </script>
 

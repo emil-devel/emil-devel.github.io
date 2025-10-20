@@ -2,6 +2,7 @@
   import { Copyright, Github } from '@lucide/svelte'
   import Header from './lib/Header.svelte'
   import Skills from './lib/Skills.svelte'
+  import Projects from './lib/Projects.svelte'
 
   const outer = 'px-2 sm:py-4'
   const inner = 'w-full max-w-xl mx-auto  py-4 space-y-4'
@@ -14,6 +15,9 @@
     <div>
       <Skills />
     </div>
+    <section>
+      <Projects />
+    </section>
   </article>
 </main>
 <footer class={outer}>
