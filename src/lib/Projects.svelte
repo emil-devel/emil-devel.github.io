@@ -2,8 +2,8 @@
   const src = ''
 </script>
 
-<h2 class="h6 pb-2">Projects</h2>
-<ul class="grid grid-cols-2 gap-4">
+<h2 class="h6 pb-8">Projects</h2>
+<ul class="w-fit mx-auto sm:w-full grid sm:grid-cols-2 gap-4 justify-center">
   <li>
     <a
       href="https://github.com/emil-devel/sveltekit-lucia-prisma"
