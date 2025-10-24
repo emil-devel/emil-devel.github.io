@@ -11,9 +11,10 @@
 <Header {outer} {inner} />
 <main class="{outer} flex-auto">
   <article class={inner}>
-    <h2 class="text-2xl text-right text-primary-300-700">Hello world!</h2>
-    <div>
-      <Skills />
+    <div class="flex flex-row-reverse">
+      <div class="w-4/5">
+        <Skills />
+      </div>
     </div>
     <section>
       <Projects />

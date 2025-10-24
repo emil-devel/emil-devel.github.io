@@ -1,5 +1,41 @@
-<h3 class="h5">Projects</h3>
-<ul class="grid grid-cols-2">
-  <li>Prisma</li>
-  <li>Drizzle</li>
+<script lang="ts">
+  const src = ''
+</script>
+
+<h2 class="h6 pb-2">Projects</h2>
+<ul class="grid grid-cols-2 gap-4">
+  <li>
+    <a
+      href="https://github.com/emil-devel/sveltekit-lucia-prisma"
+      class="card p-4 preset-filled-surface-100-900 border border-surface-200-800 card-hover divide-surface-200-800 block max-w-md divide-y overflow-hidden"
+    >
+      <header></header>
+      <article class="space-y-4 p-4 text-sm">
+        <h3>Sveltekit-Lucia-Prisma</h3>
+        <div class="text-sm">
+          <p class="opacity-60">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aspernatur provident eveniet eligendi cumque consequatur tempore sint nisi sapiente.
+          </p>
+        </div>
+      </article>
+    </a>
+  </li>
+  <li>
+    <a
+      href="https://github.com/emil-devel/sveltekit-lucia-drizzle"
+      class="card p-4 preset-filled-surface-100-900 border border-surface-200-800 card-hover divide-surface-200-800 block max-w-md divide-y overflow-hidden"
+    >
+      <header></header>
+
+      <article class="space-y-4 p-4 text-sm">
+        <h3>Sveltekit-Lucia-Drizzle</h3>
+        <div class="text-sm">
+          <p class="opacity-60">
+            Numquam aspernatur provident eveniet eligendi cumque consequatur tempore sint nisi sapiente. Iste beatae laboriosam iure molestias cum expedita architecto itaque quae
+            rem.
+          </p>
+        </div>
+      </article>
+    </a>
+  </li>
 </ul>

@@ -1,6 +1,6 @@
 <script lang="ts">
   const { outer, inner } = $props()
-  import { Avatar } from '@skeletonlabs/skeleton-svelte/composed'
+  import { Avatar } from '@skeletonlabs/skeleton-svelte'
 </script>
 
 <header class={outer}>
