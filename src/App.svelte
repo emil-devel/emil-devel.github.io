@@ -12,9 +12,7 @@
 <main class="{outer} flex-auto">
   <article class={inner}>
     <div class="flex flex-row-reverse my-8">
-      <div class="w-full md:w-4/5">
-        <Skills />
-      </div>
+      <Skills />
     </div>
     <section>
       <Projects />

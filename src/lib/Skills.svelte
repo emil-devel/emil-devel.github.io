@@ -9,27 +9,28 @@
     langs: ['javascript', 'typescript'],
   })
 
-  let code = $state(`const skills = () => {
-  role = 'Web Developer',
-  // Base Props
-  base = '',
-  // Pre Props
-  preBase = '',
-}: DeveloperProfile = $props()`)
+  let code = $state(`const skills = [role, base, preBase]`)
 
   $effect(() => {
     setTimeout(() => {
       code = `const skills = () => {
   role = 'Fullstack Web And App Developer',
   // Base Props
-  base = 'typescript, svelte',
+  base = [typescript, svelte],
   // Pre Props
-  preBase = 'html, css, javascript',
-}: DeveloperProfile = $props()`
+  preBase = [html, css, javascript],
+}: DeveloperProfile = $props();`
     }, 2000)
   })
 </script>
 
 {#await highlighter then highlighter}
-  <ShikiMagicMove class="p-4 rounded-container w-full text-xs" lang="ts" theme="poimandres" {highlighter} {code} options={{ duration: 800, stagger: 0.3, lineNumbers: false }} />
+  <ShikiMagicMove
+    class="p-4 rounded-container w-fit min-w-sm max-w-full text-xs"
+    lang="ts"
+    theme="poimandres"
+    {highlighter}
+    {code}
+    options={{ duration: 800, stagger: 0.3, lineNumbers: false }}
+  />
 {/await}

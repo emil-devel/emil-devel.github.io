@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@lucide/svelte':
         specifier: ^0.545.0
-        version: 0.545.0(svelte@5.41.3)
+        version: 0.545.0(svelte@5.41.4)
       '@tailwindcss/vite':
         specifier: ^4.1.16
         version: 4.1.16(vite@7.1.12(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2))
@@ -23,10 +23,10 @@ importers:
         version: 4.1.4(tailwindcss@4.1.16)
       '@skeletonlabs/skeleton-svelte':
         specifier: ^4.1.4
-        version: 4.1.4(@internationalized/date@3.10.0)(svelte@5.41.3)
+        version: 4.1.4(@internationalized/date@3.10.0)(svelte@5.41.4)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^6.2.1
-        version: 6.2.1(svelte@5.41.3)(vite@7.1.12(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2))
+        version: 6.2.1(svelte@5.41.4)(vite@7.1.12(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2))
       '@tsconfig/svelte':
         specifier: ^5.0.5
         version: 5.0.5
@@ -38,13 +38,13 @@ importers:
         version: 3.13.0
       shiki-magic-move:
         specifier: ^1.2.0
-        version: 1.2.0(shiki@3.13.0)(svelte@5.41.3)
+        version: 1.2.0(shiki@3.13.0)(svelte@5.41.4)
       svelte:
-        specifier: ^5.41.3
-        version: 5.41.3
+        specifier: ^5.41.4
+        version: 5.41.4
       svelte-check:
         specifier: ^4.3.3
-        version: 4.3.3(picomatch@4.0.3)(svelte@5.41.3)(typescript@5.9.3)
+        version: 4.3.3(picomatch@4.0.3)(svelte@5.41.4)(typescript@5.9.3)
       typescript:
         specifier: ~5.9.3
         version: 5.9.3
@@ -950,8 +950,8 @@ packages:
       svelte: ^4.0.0 || ^5.0.0-next.0
       typescript: '>=5.0.0'
 
-  svelte@5.41.3:
-    resolution: {integrity: sha512-bkHg+whEnVVNcK3XP8Dy4NHujn5mU/+at9z09PXM5THKm+E73AwiKFoRMMTfyAzAj1yExKtudvGHq8UqOh8kMQ==}
+  svelte@5.41.4:
+    resolution: {integrity: sha512-sBrVmskY0eij5+CSSuMK1kOk1xSiRh0BRTEhUnxnd1x3p42GbQmm4rwq4WMD23rUG3QR53Nfv8kpaER3tV5F4A==}
     engines: {node: '>=18'}
 
   tailwindcss@4.1.16:
@@ -1168,9 +1168,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@lucide/svelte@0.545.0(svelte@5.41.3)':
+  '@lucide/svelte@0.545.0(svelte@5.41.4)':
     dependencies:
-      svelte: 5.41.3
+      svelte: 5.41.4
 
   '@rollup/rollup-android-arm-eabi@4.52.5':
     optional: true
@@ -1273,7 +1273,7 @@ snapshots:
 
   '@skeletonlabs/skeleton-common@4.1.4': {}
 
-  '@skeletonlabs/skeleton-svelte@4.1.4(@internationalized/date@3.10.0)(svelte@5.41.3)':
+  '@skeletonlabs/skeleton-svelte@4.1.4(@internationalized/date@3.10.0)(svelte@5.41.4)':
     dependencies:
       '@skeletonlabs/skeleton-common': 4.1.4
       '@zag-js/accordion': 1.26.3
@@ -1291,7 +1291,7 @@ snapshots:
       '@zag-js/radio-group': 1.26.3
       '@zag-js/rating-group': 1.26.3
       '@zag-js/slider': 1.26.3
-      '@zag-js/svelte': 1.26.3(svelte@5.41.3)
+      '@zag-js/svelte': 1.26.3(svelte@5.41.4)
       '@zag-js/switch': 1.26.3
       '@zag-js/tabs': 1.26.3
       '@zag-js/tags-input': 1.26.3
@@ -1299,7 +1299,7 @@ snapshots:
       '@zag-js/toggle-group': 1.26.3
       '@zag-js/tooltip': 1.26.3
       '@zag-js/tree-view': 1.26.3
-      svelte: 5.41.3
+      svelte: 5.41.4
     transitivePeerDependencies:
       - '@internationalized/date'
 
@@ -1311,22 +1311,22 @@ snapshots:
     dependencies:
       acorn: 8.15.0
 
-  '@sveltejs/vite-plugin-svelte-inspector@5.0.1(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.41.3)(vite@7.1.12(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2)))(svelte@5.41.3)(vite@7.1.12(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2))':
+  '@sveltejs/vite-plugin-svelte-inspector@5.0.1(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.41.4)(vite@7.1.12(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2)))(svelte@5.41.4)(vite@7.1.12(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 6.2.1(svelte@5.41.3)(vite@7.1.12(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2))
+      '@sveltejs/vite-plugin-svelte': 6.2.1(svelte@5.41.4)(vite@7.1.12(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2))
       debug: 4.4.3
-      svelte: 5.41.3
+      svelte: 5.41.4
       vite: 7.1.12(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.41.3)(vite@7.1.12(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2))':
+  '@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.41.4)(vite@7.1.12(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 5.0.1(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.41.3)(vite@7.1.12(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2)))(svelte@5.41.3)(vite@7.1.12(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2))
+      '@sveltejs/vite-plugin-svelte-inspector': 5.0.1(@sveltejs/vite-plugin-svelte@6.2.1(svelte@5.41.4)(vite@7.1.12(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2)))(svelte@5.41.4)(vite@7.1.12(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2))
       debug: 4.4.3
       deepmerge: 4.3.1
       magic-string: 0.30.21
-      svelte: 5.41.3
+      svelte: 5.41.4
       vite: 7.1.12(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2)
       vitefu: 1.1.1(vite@7.1.12(@types/node@24.9.1)(jiti@2.6.1)(lightningcss@1.30.2))
     transitivePeerDependencies:
@@ -1625,12 +1625,12 @@ snapshots:
       '@zag-js/types': 1.26.3
       '@zag-js/utils': 1.26.3
 
-  '@zag-js/svelte@1.26.3(svelte@5.41.3)':
+  '@zag-js/svelte@1.26.3(svelte@5.41.4)':
     dependencies:
       '@zag-js/core': 1.26.3
       '@zag-js/types': 1.26.3
       '@zag-js/utils': 1.26.3
-      svelte: 5.41.3
+      svelte: 5.41.4
 
   '@zag-js/switch@1.26.3':
     dependencies:
@@ -1971,13 +1971,13 @@ snapshots:
     dependencies:
       mri: 1.2.0
 
-  shiki-magic-move@1.2.0(shiki@3.13.0)(svelte@5.41.3):
+  shiki-magic-move@1.2.0(shiki@3.13.0)(svelte@5.41.4):
     dependencies:
       diff-match-patch-es: 1.0.1
       ohash: 2.0.11
     optionalDependencies:
       shiki: 3.13.0
-      svelte: 5.41.3
+      svelte: 5.41.4
 
   shiki@3.13.0:
     dependencies:
@@ -1999,19 +1999,19 @@ snapshots:
       character-entities-html4: 2.1.0
       character-entities-legacy: 3.0.0
 
-  svelte-check@4.3.3(picomatch@4.0.3)(svelte@5.41.3)(typescript@5.9.3):
+  svelte-check@4.3.3(picomatch@4.0.3)(svelte@5.41.4)(typescript@5.9.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       chokidar: 4.0.3
       fdir: 6.5.0(picomatch@4.0.3)
       picocolors: 1.1.1
       sade: 1.8.1
-      svelte: 5.41.3
+      svelte: 5.41.4
       typescript: 5.9.3
     transitivePeerDependencies:
       - picomatch
 
-  svelte@5.41.3:
+  svelte@5.41.4:
     dependencies:
       '@jridgewell/remapping': 2.3.5
       '@jridgewell/sourcemap-codec': 1.5.5

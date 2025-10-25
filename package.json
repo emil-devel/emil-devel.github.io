@@ -18,7 +18,7 @@
     "@types/node": "^24.9.1",
     "shiki": "^3.13.0",
     "shiki-magic-move": "^1.2.0",
-    "svelte": "^5.41.3",
+    "svelte": "^5.41.4",
     "svelte-check": "^4.3.3",
     "typescript": "~5.9.3",
     "vite": "^7.1.12"
