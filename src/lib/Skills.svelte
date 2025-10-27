@@ -3,6 +3,7 @@
   import { ShikiMagicMove } from 'shiki-magic-move/svelte'
 
   import 'shiki-magic-move/dist/style.css'
+  import { scale } from 'svelte/transition'
 
   const highlighter = createHighlighter({
     themes: ['dark-plus', 'poimandres', 'nord'],
@@ -25,12 +26,14 @@
 </script>
 
 {#await highlighter then highlighter}
-  <ShikiMagicMove
-    class="p-4 rounded-container w-fit min-w-sm max-w-full text-xs"
-    lang="ts"
-    theme="poimandres"
-    {highlighter}
-    {code}
-    options={{ duration: 800, stagger: 0.3, lineNumbers: false }}
-  />
+  <div class="flex flex-row-reverse my-8" in:scale>
+    <ShikiMagicMove
+      class="p-4 rounded-container w-fit min-w-sm max-w-full text-xs"
+      lang="ts"
+      theme="poimandres"
+      {highlighter}
+      {code}
+      options={{ duration: 800, stagger: 0.3, lineNumbers: false }}
+    />
+  </div>
 {/await}

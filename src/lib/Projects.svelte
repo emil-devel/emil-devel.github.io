@@ -7,10 +7,12 @@
   <li>
     <a
       href="https://github.com/emil-devel/sveltekit-lucia-prisma"
-      class="card p-4 preset-filled-surface-100-900 border border-surface-200-800 card-hover divide-surface-200-800 block max-w-md divide-y overflow-hidden"
+      class="card preset-filled-surface-100-900 border border-surface-200-800 card-hover divide-surface-200-800 block max-w-md divide-y overflow-hidden"
     >
-      <header></header>
-      <article class="space-y-4 p-4 text-sm">
+      <header>
+        <img class="w-full" src="/img/project.png" alt="Project Header" />
+      </header>
+      <article class="p-4 text-sm">
         <h3>Sveltekit-Lucia-Prisma</h3>
         <div class="text-sm">
           <p class="opacity-60">
@@ -23,11 +25,12 @@
   <li>
     <a
       href="https://github.com/emil-devel/sveltekit-lucia-drizzle"
-      class="card p-4 preset-filled-surface-100-900 border border-surface-200-800 card-hover divide-surface-200-800 block max-w-md divide-y overflow-hidden"
+      class="card preset-filled-surface-100-900 border border-surface-200-800 card-hover divide-surface-200-800 block max-w-md divide-y overflow-hidden"
     >
-      <header></header>
-
-      <article class="space-y-4 p-4 text-sm">
+      <header>
+        <img class="w-full" src="/img/project.png" alt="Project Header" />
+      </header>
+      <article class="p-4 text-sm">
         <h3>Sveltekit-Lucia-Drizzle</h3>
         <div class="text-sm">
           <p class="opacity-60">

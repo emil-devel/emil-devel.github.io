@@ -11,9 +11,7 @@
 <Header {outer} {inner} />
 <main class="{outer} flex-auto">
   <article class={inner}>
-    <div class="flex flex-row-reverse my-8">
-      <Skills />
-    </div>
+    <Skills />
     <section>
       <Projects />
     </section>
