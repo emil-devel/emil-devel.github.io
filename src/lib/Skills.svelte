@@ -15,7 +15,7 @@
   $effect(() => {
     setTimeout(() => {
       code = `const skills = () => {
-  role = 'Fullstack Web And App Developer',
+  role = 'Full Stack Web And App Developer',
   // Base Props
   base = [typescript, svelte],
   // Pre Props
