@@ -6,22 +6,6 @@
 <ul class="w-fit mx-auto sm:w-full grid sm:grid-cols-2 gap-4 justify-center">
   <li>
     <a
-      href="https://github.com/emil-devel/sveltekit-lucia-prisma"
-      class="card preset-filled-surface-100-900 border border-surface-200-800 card-hover divide-surface-200-800 block max-w-md divide-y overflow-hidden"
-    >
-      <header>
-        <img class="w-full" src="/img/project.png" alt="Project Header" />
-      </header>
-      <article class="p-4 text-sm">
-        <h3>Sveltekit-Lucia-Prisma</h3>
-        <div class="text-sm">
-          <p class="opacity-60"></p>
-        </div>
-      </article>
-    </a>
-  </li>
-  <li>
-    <a
       href="https://github.com/emil-devel/sveltekit-lucia-drizzle"
       class="card preset-filled-surface-100-900 border border-surface-200-800 card-hover divide-surface-200-800 block max-w-md divide-y overflow-hidden"
     >
@@ -30,6 +14,22 @@
       </header>
       <article class="p-4 text-sm">
         <h3>Sveltekit-Lucia-Drizzle</h3>
+        <div class="text-sm">
+          <p class="opacity-60"></p>
+        </div>
+      </article>
+    </a>
+  </li>
+  <li>
+    <a
+      href="https://github.com/emil-devel/sveltekit-lucia-prisma"
+      class="card preset-filled-surface-100-900 border border-surface-200-800 card-hover divide-surface-200-800 block max-w-md divide-y overflow-hidden"
+    >
+      <header>
+        <img class="w-full" src="/img/project.png" alt="Project Header" />
+      </header>
+      <article class="p-4 text-sm">
+        <h3>Sveltekit-Lucia-Prisma</h3>
         <div class="text-sm">
           <p class="opacity-60"></p>
         </div>
