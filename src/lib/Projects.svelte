@@ -1,5 +1,5 @@
 <script lang="ts">
-  const src = ''
+  //
 </script>
 
 <h2 class="h6 pb-8">Projects</h2>
@@ -15,9 +15,7 @@
       <article class="p-4 text-sm">
         <h3>Sveltekit-Lucia-Prisma</h3>
         <div class="text-sm">
-          <p class="opacity-60">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aspernatur provident eveniet eligendi cumque consequatur tempore sint nisi sapiente.
-          </p>
+          <p class="opacity-60"></p>
         </div>
       </article>
     </a>
@@ -33,10 +31,7 @@
       <article class="p-4 text-sm">
         <h3>Sveltekit-Lucia-Drizzle</h3>
         <div class="text-sm">
-          <p class="opacity-60">
-            Numquam aspernatur provident eveniet eligendi cumque consequatur tempore sint nisi sapiente. Iste beatae laboriosam iure molestias cum expedita architecto itaque quae
-            rem.
-          </p>
+          <p class="opacity-60"></p>
         </div>
       </article>
     </a>
