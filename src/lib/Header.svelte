@@ -10,6 +10,6 @@
         <Avatar.Image src="/ewd-logo@2x.svg" alt="Logo: emil-devel" />
       </Avatar>
     </div>
-    <h1 class="text-2xl text-primary-500">emil-devel</h1>
+    <h1 class="text-2xl text-primary-600-400 font-bold">emil-devel</h1>
   </div>
 </header>

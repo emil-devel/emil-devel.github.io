@@ -21,7 +21,7 @@
   // Pre Props
   preBase = [html, css, javascript],
 }: DeveloperProfile = $props();`
-    }, 2000)
+    }, 1200)
   })
 </script>
 
