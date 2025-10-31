@@ -26,8 +26,10 @@
         </header>
         <article class="p-4 text-sm">
           <h3>Sveltekit-Lucia-Drizzle</h3>
-          <div class="text-sm">
-            <p class="opacity-60"></p>
+          <div class="text-sm opacity-60">
+            <p>User management with Rolen (User, Redacteur, Admin).</p>
+            <p>Realized with: Sveltekit, Skeleton UI, Valibot, Drizzle.</p>
+            <p>Postgres Database.</p>
           </div>
         </article>
       </a>
@@ -43,8 +45,10 @@
         </header>
         <article class="p-4 text-sm">
           <h3>Sveltekit-Lucia-Prisma</h3>
-          <div class="text-sm">
-            <p class="opacity-60"></p>
+          <div class="text-sm opacity-60">
+            <p>User management with Rolen (User, Redacteur, Admin).</p>
+            <p>Realized with: Sveltekit, Skeleton UI, Valibot, Prisma.</p>
+            <p>Postgres Database.</p>
           </div>
         </article>
       </a>
