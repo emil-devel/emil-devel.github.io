@@ -1,5 +1,7 @@
 <script lang="ts">
-  import { fade, fly } from 'svelte/transition'
+  import { fly } from 'svelte/transition'
+
+  import src from '../assets/project.webp'
 
   let title: boolean = false
   let list: boolean = false
@@ -22,7 +24,7 @@
         class="card preset-filled-surface-100-900 border border-surface-200-800 card-hover divide-surface-200-800 block max-w-md divide-y overflow-hidden"
       >
         <header>
-          <img class="w-full" src="/img/project.webp" alt="Project Header" />
+          <img class="w-full" {src} alt="Project Header" />
         </header>
         <article class="p-4 text-sm">
           <h3>Sveltekit-Lucia-Drizzle</h3>
@@ -41,7 +43,7 @@
         class="card preset-filled-surface-100-900 border border-surface-200-800 card-hover divide-surface-200-800 block max-w-md divide-y overflow-hidden"
       >
         <header>
-          <img class="w-full" src="/img/project.webp" alt="Project Header" />
+          <img class="w-full" {src} alt="Project Header" />
         </header>
         <article class="p-4 text-sm">
           <h3>Sveltekit-Lucia-Prisma</h3>
