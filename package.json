@@ -11,22 +11,22 @@
     "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
   },
   "devDependencies": {
-    "@skeletonlabs/skeleton": "^4.2.2",
-    "@skeletonlabs/skeleton-svelte": "^4.2.2",
+    "@skeletonlabs/skeleton": "^4.2.4",
+    "@skeletonlabs/skeleton-svelte": "^4.2.4",
     "@sveltejs/vite-plugin-svelte": "^6.2.1",
     "@tsconfig/svelte": "^5.0.5",
-    "@types/node": "^24.9.2",
-    "shiki": "^3.14.0",
+    "@types/node": "^24.10.0",
+    "shiki": "^3.15.0",
     "shiki-magic-move": "^1.2.1",
-    "svelte": "^5.43.0",
+    "svelte": "^5.43.4",
     "svelte-check": "^4.3.3",
     "typescript": "~5.9.3",
-    "vite": "^7.1.12"
+    "vite": "^7.2.1"
   },
   "dependencies": {
     "@lucide/svelte": "^0.545.0",
-    "@tailwindcss/vite": "^4.1.16",
-    "tailwindcss": "^4.1.16"
+    "@tailwindcss/vite": "^4.1.17",
+    "tailwindcss": "^4.1.17"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

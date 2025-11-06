@@ -22,7 +22,7 @@
         class="card preset-filled-surface-100-900 border border-surface-200-800 card-hover divide-surface-200-800 block max-w-md divide-y overflow-hidden"
       >
         <header>
-          <img class="w-full" src="/img/project.png" alt="Project Header" />
+          <img class="w-full" src="/img/project.webp" alt="Project Header" />
         </header>
         <article class="p-4 text-sm">
           <h3>Sveltekit-Lucia-Drizzle</h3>
@@ -41,7 +41,7 @@
         class="card preset-filled-surface-100-900 border border-surface-200-800 card-hover divide-surface-200-800 block max-w-md divide-y overflow-hidden"
       >
         <header>
-          <img class="w-full" src="/img/project.png" alt="Project Header" />
+          <img class="w-full" src="/img/project.webp" alt="Project Header" />
         </header>
         <article class="p-4 text-sm">
           <h3>Sveltekit-Lucia-Prisma</h3>
