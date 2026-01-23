@@ -12,9 +12,7 @@
 <main class="{outer} flex-auto">
   <article class={inner}>
     <Skills />
-    <section>
-      <Projects />
-    </section>
+    <Projects />
   </article>
 </main>
 <footer class={outer}>
