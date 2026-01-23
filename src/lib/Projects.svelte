@@ -4,12 +4,12 @@
   import src from '../assets/project.webp'
 
   let title: boolean = false
-  let list: boolean = false
+  let projects: boolean = false
   setTimeout(() => {
     title = true
   }, 2000)
   setTimeout(() => {
-    list = true
+    projects = true
   }, 2200)
 </script>
 
@@ -17,7 +17,7 @@
   <h2 class="h6 pb-8 text-right text-primary-600" in:fly={{ x: 200, duration: 400 }}>Projects</h2>
 {/if}
 <ul class="w-fit mx-auto sm:w-full grid sm:grid-cols-2 gap-4 justify-center">
-  {#if list}
+  {#if projects}
     <li in:fly={{ x: -200, duration: 400 }}>
       <a
         href="https://github.com/emil-devel/sveltekit-lucia-drizzle"
