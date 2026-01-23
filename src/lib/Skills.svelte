@@ -1,39 +1,43 @@
 <script lang="ts">
-  import { createHighlighter } from 'shiki'
-  import { ShikiMagicMove } from 'shiki-magic-move/svelte'
+  import { createHighlighter } from "shiki";
+  import { ShikiMagicMove } from "shiki-magic-move/svelte";
 
-  import 'shiki-magic-move/dist/style.css'
-  import { scale } from 'svelte/transition'
+  import "shiki-magic-move/dist/style.css";
+  import { scale } from "svelte/transition";
 
   const highlighter = createHighlighter({
-    themes: ['dark-plus', 'poimandres', 'nord'],
-    langs: ['javascript', 'typescript'],
-  })
+    themes: ["dark-plus", "poimandres", "nord"],
+    langs: ["javascript", "typescript"],
+  });
 
-  let code = $state(`const skills = [role, base, preBase]`)
+  let code = $state(`const skills = [role, base, preBase]`);
 
   $effect(() => {
     setTimeout(() => {
       code = `const skills = () => {
-  role = 'Full Stack Web And App Developer',
+  role = 'Full Stack Web Developer',
   // Base Props
   base = [typescript, svelte],
   // Pre Props
-  preBase = [html, css, javascript],
-}: DeveloperProfile = $props();`
-    }, 1200)
-  })
+  preBase = [
+    html,
+    css,
+    javascript
+  ],
+}: DeveloperProfile = $props();`;
+    }, 1200);
+  });
 </script>
 
 {#await highlighter then highlighter}
-  <div class="flex flex-row-reverse my-8" in:scale>
+  <section class="flex flex-row-reverse" in:scale>
     <ShikiMagicMove
-      class="p-4 rounded-container w-fit min-w-sm max-w-full text-xs"
+      class="p-4 rounded-container w-fit max-w-full text-xs"
       lang="ts"
       theme="poimandres"
       {highlighter}
       {code}
       options={{ duration: 800, stagger: 0.3, lineNumbers: false }}
     />
-  </div>
+  </section>
 {/await}
