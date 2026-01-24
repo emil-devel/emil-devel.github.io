@@ -1,7 +1,16 @@
 {
   "name": "emil-devel.github.io",
+  "keywords": [
+    "svelte",
+    "sveltekit",
+    "skeleton",
+    "prisma",
+    "drizzle",
+    "superforms",
+    "valibot"
+  ],
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "packageManager": "pnpm@10.9.0",
   "type": "module",
   "scripts": {
