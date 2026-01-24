@@ -21,7 +21,7 @@
       >
         <article class="text-sm flex flex-col h-full">
           <header
-            class="overflow-hidden rounded-t-xl mb-4 py-8 bg-linear-to-b from-surface-600 to-surface-800 text-white"
+            class="overflow-hidden rounded-t-xl mb-4 pt-10 pb-4 bg-linear-to-b from-surface-600 to-surface-800 text-white"
           >
             <h3 class="px-4 py-2 text-center">{title}</h3>
           </header>
