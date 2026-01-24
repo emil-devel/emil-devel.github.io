@@ -14,7 +14,7 @@
   loop
 >
   <Carousel.ItemGroup>
-    {#each slides as { url, link, src, title, content }, i}
+    {#each slides as { url, link, title, content }, i}
       <Carousel.Item
         index={i}
         class="card preset-filled-surface-100-900 border border-surface-300-700 max-w-md"
