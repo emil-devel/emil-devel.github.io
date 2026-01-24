@@ -1,9 +1,9 @@
-import betterauth_prisma from "../../assets/login.png";
-import lucia_drizzle from "../../assets/register.png";
-import tasks from "../../assets/tasks.png";
-import todos from "../../assets/todos.png";
-import lucia_prisma from "../../assets/user.png";
-import betterauth_drizzle from "../../assets/users.png";
+import betterauth_prisma from "../../assets/login.webp";
+import lucia_drizzle from "../../assets/register.webp";
+import tasks from "../../assets/tasks.webp";
+import todos from "../../assets/todos.webp";
+import lucia_prisma from "../../assets/user.webp";
+import betterauth_drizzle from "../../assets/users.webp";
 
 const slides = [
   {
