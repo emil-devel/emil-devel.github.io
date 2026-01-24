@@ -19,18 +19,14 @@
   // Base Props
   base = [typescript, svelte],
   // Pre Props
-  preBase = [
-    html,
-    css,
-    javascript
-  ],
+  preBase = [html, css, javascript],
 }: DeveloperProfile = $props();`;
     }, 1200);
   });
 </script>
 
 {#await highlighter then highlighter}
-  <section class="flex flex-row-reverse" in:scale>
+  <section class="flex flex-row-reverse pt-8 pb-4" in:scale>
     <ShikiMagicMove
       class="p-4 rounded-container w-fit max-w-full text-xs"
       lang="ts"

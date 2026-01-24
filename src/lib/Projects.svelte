@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { fly } from "svelte/transition";
+  import { fly, scale } from "svelte/transition";
   import Slider from "./projects/Slider.svelte";
 
   let title: boolean = false;
@@ -22,7 +22,7 @@
     </h2>
   {/if}
   {#if projects}
-    <div in:fly={{ y: 200, duration: 400 }}>
+    <div in:scale={{ duration: 400 }}>
       <Slider />
     </div>
   {/if}
