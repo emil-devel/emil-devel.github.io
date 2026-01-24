@@ -2,11 +2,17 @@
   import { Github } from "@lucide/svelte";
   import { Carousel } from "@skeletonlabs/skeleton-svelte";
   import slides from "./slides";
+  let slidesPerPage = $state(2);
+  $effect(() => {
+    setTimeout(() => {
+      slidesPerPage = 1;
+    }, 500);
+  });
 </script>
 
 <Carousel
   slideCount={slides.length}
-  slidesPerPage={1}
+  {slidesPerPage}
   spacing="8px"
   autoplay
   allowMouseDrag

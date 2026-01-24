@@ -15,7 +15,7 @@
 <section>
   {#if title}
     <h2
-      class="h6 pb-4 text-right text-primary-600"
+      class="h6 pb-1 text-right text-primary-600"
       in:fly={{ x: 200, duration: 400 }}
     >
       Projects
