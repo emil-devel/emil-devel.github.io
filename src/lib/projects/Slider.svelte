@@ -12,6 +12,19 @@
   allowMouseDrag
   loop
 >
+  <Carousel.Control class="flex justify-between mb-4">
+    <!-- <Carousel.PrevTrigger class="btn btn-sm preset-tonal">
+      <span>&larr;</span>
+      <span>Back</span>
+    </Carousel.PrevTrigger>
+    <Carousel.AutoplayTrigger class="btn btn-sm preset-tonal"
+      >Toggle Autoplay</Carousel.AutoplayTrigger
+    >
+    <Carousel.NextTrigger class="btn btn-sm preset-tonal">
+      <span>Next</span>
+      <span>&rarr;</span>
+    </Carousel.NextTrigger> -->
+  </Carousel.Control>
   <Carousel.ItemGroup>
     {#each slides as { url, link, title, content }, i}
       <Carousel.Item
