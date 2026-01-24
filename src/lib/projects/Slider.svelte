@@ -2,7 +2,7 @@
   import { Github } from "@lucide/svelte";
   import { Carousel } from "@skeletonlabs/skeleton-svelte";
   import slides from "./slides";
-  const slidesPerPage = 1;
+  const slidesPerPage = 2;
 </script>
 
 <Carousel
@@ -21,9 +21,9 @@
       >
         <article class="text-sm flex flex-col h-full">
           <header class="overflow-hidden rounded-t-xl">
-            <figure class="h-48 w-full overflow-hidden">
+            <!-- <figure class="h-48 w-full overflow-hidden">
               <img {src} alt={title} class="w-full" />
-            </figure>
+            </figure> -->
             <h3 class="px-4 py-2">{title}</h3>
           </header>
           <div class="px-4 opacity-60 flex-auto">
