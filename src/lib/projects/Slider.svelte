@@ -2,7 +2,7 @@
   import { Github } from "@lucide/svelte";
   import { Carousel } from "@skeletonlabs/skeleton-svelte";
   import slides from "./slides";
-  const slidesPerPage = 2;
+  const slidesPerPage = 1;
 </script>
 
 <Carousel
