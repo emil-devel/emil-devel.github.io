@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { FolderGitIcon } from "@lucide/svelte";
   import { fly, scale } from "svelte/transition";
   import Slider from "./projects/Slider.svelte";
 
@@ -15,6 +16,7 @@
 <section>
   {#if title}
     <h2 class="h6 pb-6 text-primary-600" in:fly={{ x: 200, duration: 400 }}>
+      <span class="icon"><FolderGitIcon class="size-6" /></span>
       Projects
     </h2>
   {/if}
