@@ -2,12 +2,11 @@
   import { Github } from "@lucide/svelte";
   import { Carousel } from "@skeletonlabs/skeleton-svelte";
   import slides from "./slides";
-  const slidesPerPage = 1;
 </script>
 
 <Carousel
   slideCount={slides.length}
-  {slidesPerPage}
+  slidesPerPage={1}
   spacing="8px"
   autoplay
   allowMouseDrag
@@ -21,9 +20,9 @@
       >
         <article class="text-sm flex flex-col h-full">
           <header
-            class="overflow-hidden rounded-t-xl mb-4 pt-10 pb-4 bg-linear-to-b from-surface-600 to-surface-800 text-white"
+            class="overflow-hidden rounded-t-xl mb-4 pt-10 pb-4 preset-filled-secondary-200-800 text-gray-200-800"
           >
-            <h3 class="px-4 py-2 text-center">{title}</h3>
+            <h3 class="h3 px-4 py-2 text-center">{title}</h3>
           </header>
           <div class="px-4 opacity-60 flex-auto">
             {@html content}
@@ -39,15 +38,13 @@
       </Carousel.Item>
     {/each}
   </Carousel.ItemGroup>
-  {#if slides.length > slidesPerPage}
-    <Carousel.IndicatorGroup>
-      <Carousel.Context>
-        {#snippet children(carousel)}
-          {#each carousel().pageSnapPoints as _, index}
-            <Carousel.Indicator {index} />
-          {/each}
-        {/snippet}
-      </Carousel.Context>
-    </Carousel.IndicatorGroup>
-  {/if}
+  <Carousel.IndicatorGroup>
+    <Carousel.Context>
+      {#snippet children(carousel)}
+        {#each carousel().pageSnapPoints as _, index}
+          <Carousel.Indicator {index} />
+        {/each}
+      {/snippet}
+    </Carousel.Context>
+  </Carousel.IndicatorGroup>
 </Carousel>
