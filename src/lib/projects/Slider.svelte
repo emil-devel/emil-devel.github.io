@@ -6,7 +6,7 @@
   $effect(() => {
     setTimeout(() => {
       slidesPerPage = 1;
-    }, 500);
+    }, 400);
   });
 </script>
 
@@ -19,7 +19,7 @@
   loop
 >
   <Carousel.Control class="flex justify-between mb-4">
-    <!-- <Carousel.PrevTrigger class="btn btn-sm preset-tonal">
+    <Carousel.PrevTrigger class="btn btn-sm preset-tonal">
       <span>&larr;</span>
       <span>Back</span>
     </Carousel.PrevTrigger>
@@ -29,7 +29,7 @@
     <Carousel.NextTrigger class="btn btn-sm preset-tonal">
       <span>Next</span>
       <span>&rarr;</span>
-    </Carousel.NextTrigger> -->
+    </Carousel.NextTrigger>
   </Carousel.Control>
   <Carousel.ItemGroup>
     {#each slides as { url, link, title, content }, i}
@@ -41,7 +41,7 @@
           <header
             class="overflow-hidden rounded-t-xl mb-4 pt-10 pb-4 preset-filled-secondary-200-800 text-gray-200-800"
           >
-            <h3 class="h3 px-4 py-2 text-center">{title}</h3>
+            <h3 class="h4 px-4 py-2 text-center">{title}</h3>
           </header>
           <div class="px-4 opacity-60 flex-auto">
             {@html content}
