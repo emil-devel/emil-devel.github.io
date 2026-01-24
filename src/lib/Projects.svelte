@@ -6,10 +6,10 @@
   let projects: boolean = false;
   setTimeout(() => {
     title = true;
-  }, 2800);
+  }, 2500);
   setTimeout(() => {
     projects = true;
-  }, 3000);
+  }, 2800);
 </script>
 
 <section>
