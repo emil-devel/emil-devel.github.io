@@ -6,7 +6,7 @@
   $effect(() => {
     setTimeout(() => {
       slidesPerPage = 1;
-    }, 400);
+    }, 50);
   });
 </script>
 
