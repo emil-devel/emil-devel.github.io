@@ -7,9 +7,9 @@
 
 const slides = [
   {
-    title: "Sveltekit-Lucia-Drizzle",
-    url: "https://github.com/emil-devel/sveltekit-lucia-drizzle",
-    link: "sveltekit-lucia-drizzle code on github",
+    title: 'Sveltekit-Lucia-Drizzle',
+    url: 'https://github.com/emil-devel/sveltekit-lucia-drizzle',
+    link: 'sveltekit-lucia-drizzle code on github',
     // src: lucia_drizzle,
     content: `
     <p>User management with Lucia-Auth authentication and Roles (User, Redacteur, Admin).</p>
@@ -18,9 +18,9 @@ const slides = [
     `,
   },
   {
-    title: "Sveltekit-Lucia-Prisma",
-    url: "https://github.com/emil-devel/sveltekit-lucia-prisma",
-    link: "sveltekit-lucia-prisma code on github",
+    title: 'Sveltekit-Lucia-Prisma',
+    url: 'https://github.com/emil-devel/sveltekit-lucia-prisma',
+    link: 'sveltekit-lucia-prisma code on github',
     // src: lucia_prisma,
     content: `
     <p>User management with Lucia-Auth authentication and Roles (User, Redacteur, Admin).</p>
@@ -29,9 +29,9 @@ const slides = [
     `,
   },
   {
-    title: "Sveltekit-BetterAuth-Drizzle",
-    url: "https://github.com/emil-devel/sveltekit-betterauth-drizzle",
-    link: "sveltekit-betterauth-drizzle code on github",
+    title: 'Sveltekit-BetterAuth-Drizzle',
+    url: 'https://github.com/emil-devel/sveltekit-betterauth-drizzle',
+    link: 'sveltekit-betterauth-drizzle code on github',
     // src: betterauth_drizzle,
     content: `
     <p>User management with Better-Auth authentication and Roles (User, Redacteur, Admin).</p>
@@ -40,9 +40,9 @@ const slides = [
     `,
   },
   {
-    title: "Sveltekit-BetterAuth-Prisma",
-    url: "https://github.com/emil-devel/sveltekit-betterauth-prisma",
-    link: "sveltekit-betterauth-prisma code on github",
+    title: 'Sveltekit-BetterAuth-Prisma',
+    url: 'https://github.com/emil-devel/sveltekit-betterauth-prisma',
+    link: 'sveltekit-betterauth-prisma code on github',
     // src: betterauth_prisma,
     content: `
     <p>User management with Better-Auth authentication and Roles (User, Redacteur, Admin).</p>
@@ -52,9 +52,9 @@ const slides = [
   },
 
   {
-    title: "Tasks",
-    url: "https://github.com/ewdnet/tasks",
-    link: "tasks code on github",
+    title: 'Tasks (Sveltekit, Drizzle)',
+    url: 'https://github.com/ewdnet/tasks',
+    link: 'tasks code on github',
     // src: tasks,
     content: `
     <p>Tasks with categories and progress bar.</p>
@@ -63,9 +63,9 @@ const slides = [
     `,
   },
   {
-    title: "Todos",
-    url: "https://github.com/ewdnet/todos",
-    link: "todo code on github",
+    title: 'Todos (Sveltekit, Prisma)',
+    url: 'https://github.com/ewdnet/todos',
+    link: 'todo code on github',
     // src: todos,
     content: `
     <p>Tasks with categories and progress bar.</p>
